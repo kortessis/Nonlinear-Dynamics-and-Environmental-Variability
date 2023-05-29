@@ -1,5 +1,6 @@
 # Nonlinear-Dynamics-and-Environmental-Variability
 
+This repository has the code needed to reproduce the figures and dynamics presented in the manuscript "Increasing environmental fluctuations can dampen variability of endogenously cycling populations" posted on BioRxiv (https://doi.org/10.1101/2023.05.10.531506). The functions here are broken into two groups: the polynomial model and the ricker model. The polynomial model refers to a set of ordinary and stochastic differential equations (ode and sde) used to model repeated outbreaks. The ricker model is used to model stable equilibrium dynamics, exogenous cycles, and endogenous cycles. In all cases, the focus is how stochastic environmental variation influences population variation. 
 
 
 Polynomial Model (figures 4-5)
@@ -21,7 +22,7 @@ History_Coeff.m <- Directly calculates the coefficient c in the approximation gi
 
 Exogenous_approximation_only.m <- Same as Approximations2.m, except without the stochastic component. Makes figure S3 of the supplement.
 
-EndogenousVsExogenousCycles.m <- Estimates the variance scaling relationship using Markov simulations of the model. It also uses these simulations to calculate the interaction effect. 
+EndogenousVsExogenousCycles.m <- Estimates the variance scaling relationship using Markov simulations of the model and illustrated in figure 2. It also uses these simulations to calculate the interaction effect that is displayed in figure 6. 
 
 
 
