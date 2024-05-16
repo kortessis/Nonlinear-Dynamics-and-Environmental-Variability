@@ -1,10 +1,12 @@
-# Nonlinear-Dynamics-and-Environmental-Variability
+# Increasing environmental fluctuations can dampen variability of endogenously cycling populations
 
-This repository has the code needed to reproduce the figures and dynamics presented in the manuscript "Increasing environmental fluctuations can dampen variability of endogenously cycling populations" posted on BioRxiv (https://doi.org/10.1101/2023.05.10.531506). The functions here are broken into two groups: the polynomial model and the ricker model. The polynomial model refers to a set of ordinary and stochastic differential equations (ode and sde) used to model repeated outbreaks. The ricker model is used to model stable equilibrium dynamics, exogenous cycles, and endogenous cycles. In all cases, the focus is how stochastic environmental variation influences population variation. 
+## Paper and Code Summary
+This repository has the code needed to reproduce the figures and dynamics presented in the manuscript "Increasing environmental fluctuations can dampen variability of endogenously cycling populations". The study investigates how environmental variability impacts population fluctuations in populations that cycle. Relationships between environmental variability and population size variability are investigated using the Ricker model. The Ricker model can exhibit a stable equilibrium, exogenous cycles, and endogenous cycles, where the endogenous cycles correspond to 2-point (and higher) cycles. The study finds that environmental variability elevates population size variation for parameter combinations exhibiting stable equilibria and exogenous cycles. However, the study finds environmental variability dampens population size fluctuations for the 2-pt cycle. The study shows that this reduction in population flucutations can be quantified using a variance partition. The variance partition is used to estimate the variance dampening effect in time series data on Lynx-Hare cycles and nonlinear dynamics of flour beetle populations, showing good support for variance dampening.
 
 
 
-Ricker Model
+## Ricker Model Folder Contents
+This folder contains code to analyze the Ricker model in accordance with analytical and comnputational methods described in the paper. The code in this folder is for use in Matlab.
 
 Approximations2.m <- Compares approximation of the variance in the exogenous cycle Ricker model with a simulation. Used to generate figure S4 of the supplementary material.
 
@@ -14,9 +16,8 @@ Exogenous_approximation_only.m <- Same as Approximations2.m, except without the 
 
 EndogenousVsExogenousCycles.m <- Estimates the variance scaling relationship using Markov simulations of the model and illustrated in figure 2. 
 
-SupplementalCode
-
-Files in the folder SupplementalCode are used to reproduce empirical analyses in Kortessis et al. "Increasing environmental fluctuations can dampen variability of endogenously cycling populations"
+## SupplementalCode Folder Contents
+Files in the folder SupplementalCode are used to reproduce empirical analyses of the variance partition. The code in this folder is for use in the R programming language.
 
 1. Folder list
   A.  FlourBeetle
