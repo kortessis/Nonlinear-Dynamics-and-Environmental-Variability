@@ -16,6 +16,8 @@ Exogenous_approximation_only.m <- Same as Approximations2.m, except without the 
 
 EndogenousVsExogenousCycles.m <- Estimates the variance scaling relationship using Markov simulations of the model and illustrated in figure 2. 
 
+viridis.m <- The "viridis" colormap used in figure creation.
+
 ## SupplementalCode Folder Contents
 Files in the folder SupplementalCode are used to reproduce empirical analyses of the variance partition. The code in this folder is for use in the R programming language.
 
