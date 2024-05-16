@@ -10,7 +10,7 @@ library(tidyverse)
 library(cowplot)
 theme_set(theme_cowplot())
 
-beetle.dat <- read.csv(file="BeanBeatle_LPA.csv")
+beetle.dat <- read.csv(file="FlourBeetle_LPA.csv")
 
 beetle.dat$Total <- beetle.dat$L + beetle.dat$P + beetle.dat$A
 
