@@ -1,4 +1,4 @@
-##analyze the bean beetle data from Cushing et al.
+##analyze the flour beetle data from Cushing et al.
 ##Data are the control cultures from Table A.1
 ##Originally in THesis of Desharnais (1979)
 ##Analysis in Dennis et al 1995 Ecological Monographs
