@@ -4,19 +4,19 @@ Files used to reproduce empirical analyses in Kortessis et al. "Increasing envir
 
 1. Folder list
   A.  BeanBeetle
-    Short description: Contains .R files and data to analyze Desharnais (1979) bean beetle experimental data.
+    Short description: Contains .R files and data to analyze Desharnais (1979) flour beetle experimental data.
     
   B. LynxHare
     Short description: Contains .R files and data to analyze Lynx dataset.
 
 2. File list
-   A. Filename: /BeanBeetle/BB_MLE.R    
-      Short description: Run this file to reproduce analysis of bean beetle dataset. Estiamtes model parameters and estimates variance components.
+   A. Filename: /BeanBeetle/FB_MLE.R    
+      Short description: Run this file to reproduce analysis of flour beetle dataset. Estiamtes model parameters and estimates variance components.
 
    B. Filename: /BeanBeetle/ModelFuncs.R
-      Short description: Support functions for BB_MLE.R
+      Short description: Support functions for FB_MLE.R
 
-   C. Filename: /BeanBeetle/BeanBeatle_LPA.csv
+   C. Filename: /BeanBeetle/FlourBeetle_LPA.csv
       Short description: Dataset from Desharnais (1979).
 
    D. Filename: /LynxHare/LV_MLE.R    
@@ -31,5 +31,5 @@ Files used to reproduce empirical analyses in Kortessis et al. "Increasing envir
 
 2. Relationship between files:        
 
-To run the bean beetle analysis run /BeanBeetle/BB_MLE.R
+To run the flour beetle analysis run /BeanBeetle/FB_MLE.R
 To run the Lynx analysis run /LynxHare/LV_MLE.R
