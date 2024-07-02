@@ -53,3 +53,7 @@ Files in the folder SupplementalCode are used to reproduce empirical analyses of
 To run the flour beetle analysis run /FlourBeetle/FB_MLE.R
 To run the Lynx analysis run /LynxHare/LV_MLE.R
 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12627725.svg)](https://doi.org/10.5281/zenodo.12627725)
+
