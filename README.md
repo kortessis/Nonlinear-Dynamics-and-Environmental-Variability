@@ -46,13 +46,16 @@ Files in the folder SupplementalCode are used to reproduce empirical analyses of
 
    F. Filename: /LynxHare/LynxHare.txt
       Short description: Dataset from http://people.whitman.edu/~hundledr/courses/M250F03/.
+      
+    G. Filename: /LynxHare/LynxNODE_example.r: 
+       Code adapted from Bonnaffe et al. (2023). Loads dataset, fits neural-net ODE model to Lynx and Hare data, then calculates and plots the estimated variance components.
         
 
 2. Relationship between files:        
 
 To run the flour beetle analysis run /FlourBeetle/FB_MLE.R
-To run the Lynx analysis run /LynxHare/LV_MLE.R
-
+To run the Lynx Lotka-Volterra analysis run /LynxHare/LV_MLE.R
+To run the Lynx NODE analysis run /LynxHare/LynxNODE_example.R
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12627725.svg)](https://doi.org/10.5281/zenodo.12627725)
